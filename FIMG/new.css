@@ -1,0 +1,19 @@
+body{
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar {
+
+    background-color: #007bff;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+/* Section Styles */
+#home {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+}
+

@@ -1,0 +1,149 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+nav a {
+    color: white;
+    font-size: 15px;
+    margin: 0 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover, nav a:active {
+    background-color: lightcoral;  
+    color: #fff;  
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: 'great vibes', cursive;
+    height: 10vh;
+}
+
+h5 {
+    font-size: 1.7rem;
+}
+
+.overlay-text h1 {
+    color: #df0ad8dc;
+    font-size: 2rem;
+}
+
+.overlay-text p {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+
+
+#home {
+    background: linear-gradient(#E6E6FA, #8A2BE2, #FFC0CB);
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url('FIMG/dp2.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+
+#projects {
+    color: white;
+    padding: 60px;
+    
+}
+
+
+.card {
+    background-color:  #FFC0CB;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #ff4500;
+}
+
+.btn-primary {
+    background-color: lightcoral;
+    border-radius: 7px;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500; 
+}
+
+.col-lg-4, .col-md-6 {
+    padding: 50px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer {
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+}
+
+
+h2 {
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+h2:hover {
+    color: orangered; 
+    text-decoration: underline; 
+}
+
+.btn-custom {
+    background-color: lightcoral;
+    color: white; /
+}
+
+.btn-custom:hover {
+    background-color: #ff4500; 
+    color: white; 
+}
+
+
+.heading-color {
+    color: lightcoral; 
+}
+
+.heading-color:hover {
+    color: orangered; 
+}
+
+
+.about-me {
+    padding: 100px; 
+}
+
+.contact-me {
+    padding: 100px; 
+}
